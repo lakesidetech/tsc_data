@@ -24,7 +24,7 @@ import webbrowser
 
 
 ```python
-# # Read data from the CSV files
+## Read data from the CSV files
 # encoding="ISO-8859-1" so that pandas can properly read the CSV
 tsc_data= pd.read_csv("C:\\Users\\user\\Desktop\\python-files\\teacher_by_status_and_county_for_secondary (1).csv")
 
@@ -966,9 +966,9 @@ tsc_data['COUNTY']
 
 
 ```python
-#place this in a variable 
+## place this in a variable 
 our_county=tsc_data['COUNTY']
-#identify type
+## identify type
 type(our_county)
 ```
 
@@ -981,7 +981,7 @@ type(our_county)
 
 
 ```python
-#list 5  counties using a variable
+# list 5  counties using a variable
 our_county.head(5)
 
 ```
